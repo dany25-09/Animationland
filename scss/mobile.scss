@@ -1,0 +1,30 @@
+@import 'variables';
+
+body{
+    display: inline;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.phone{
+    height: 100%;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+
+    .layer-1{
+        right: 100px;
+    }
+
+    .layer-2{
+        left: 100px
+    }
+
+    .layer-3{
+        width: 270px;
+    }
+}
